@@ -1,6 +1,6 @@
 import random
 
-str = 'source-for-exercise/normal-exercise-3-final/random_words.txt'
+str = 'source-for-exercise/final-exercise-3/random_words.txt'
 file = open(str, mode='r')
 content = file.readlines()
 arr_with_words = []
