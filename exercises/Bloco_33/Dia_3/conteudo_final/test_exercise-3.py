@@ -2,7 +2,7 @@ import pytest
 from exercise_3 import validate_email
 
 
-def test_fizz_buzz_function():
+def test_validate_email():
     assert validate_email("FulanoDeTal@hotmail.com") is None
     assert validate_email("Fulano-De-Tal@hotmail.com") is None
     assert validate_email("Fulano_De_Tal@hotmail.com") is None
